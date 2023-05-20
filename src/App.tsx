@@ -1,12 +1,10 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Navbar } from "./layouts/NavbarAndFooter/Navbar";
 
 function App() {
   return (
-    <div className="App">
-     <h1>Welcome To the fullstack course
-     </h1>
-    </div>
+    <Navbar/>
   );
 }
 
