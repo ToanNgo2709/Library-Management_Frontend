@@ -1,13 +1,16 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Navbar } from "./layouts/NavbarAndFooter/Navbar";
+import { Footer } from "./layouts/NavbarAndFooter/Footer";
+import { HomePage } from "./layouts/HomePage/HomePage";
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
-     <h1>Welcome To the fullstack course
-     </h1>
+      <Navbar />
+      <HomePage/>
+      <Footer />
     </div>
   );
 }
 
-export default App;
