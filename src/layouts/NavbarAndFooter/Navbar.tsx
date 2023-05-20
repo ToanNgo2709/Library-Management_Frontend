@@ -23,12 +23,7 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Book
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Home
+                Search Books
               </a>
             </li>
           </ul>
